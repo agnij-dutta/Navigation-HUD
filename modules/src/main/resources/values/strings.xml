@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="active_notification_count_nonzero">
+        <item quantity="one">%d active notification:</item>
+        <item quantity="other">%d active notifications:</item>
+    </plurals>
+    <!--    <string name="open_app" >Open app</string>-->
+    <string name="app_name" translatable="false">GoogleMaps HUD</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="notify_switch_detect">Detect</string>
+    <string name="notify_switch_speed">Speed</string>
+    <string name="notify_switch_ETA">ETA</string>
+
+    <string name="active_notification_count_zero">No active notification</string>
+
+    <!--gmaps' navigation string-->
+    <string name="exit_navigation">EXIT NAVIGATION</string>
+    <string name="after">after</string>
+    <string name="ETA">ETA</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="hour">h</string>
+    <string name="hour2">h</string>
+    <string name="minute">m</string>
+    <string name="minute2">m</string>
+    <string name="km">km</string>
+    <string name="meter">m</string>
+    <string name="feet">ft</string>
+    <string name="miles">mi</string>
+
+    <string name="chinese_after" translatable="false">後</string>
+
+    <!--Prompt-->
+    <string name="prompt_switch_hud_connected">This indicates the connection status of GARMIN HUD.</string>
+    <string name="prompt_btn_scan_bt">If GARMIN HUD is disconnected, you should connect to GARMIN HUD with this button.</string>
+    <string name="prompt_switch_notification_catched">This indicates the app can capture Notification.</string>
+    <string name="prompt_switch_gmaps_navigation_catched">This indicates the GoogleMaps on Navigating Mode.</string>
+    <string name="prompt_layout_status">All of this indicates should be ON, then GARMIN HUD will receive Navigation information.</string>
+
+    <!--    <string name="title_activity_main2">MainActivity2</string>-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">GoogleMaps HUD</string>
+    <string name="nav_header_subtitle" translatable="false">skyforce@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="layout_tab_main">Main</string>
+
+    <string name="layout_tab_setup">Setup</string>
+    <string name="layout_button_scan_hud">Scan for HUD</string>
+    <string name="layout_button_reset_hud">Reset HUD</string>
+
+    <string name="layout_title_status">Status</string>
+    <string name="layout_element_hud_connected">HUD Connected</string>
+    <string name="layout_element_notification_caputre">Notification Capture</string>
+    <string name="layout_element_gmaps_notification_caputre">Gmap Navigation Capture</string>
+
+    <string name="layout_title_settings">Settings</string>
+    <string name="layout_element_show_speed">Show Speed</string>
+    <string name="layout_element_auto_brightness">Auto Brightness</string>
+    <string name="layout_title_when_navigating">When Navigating</string>
+    <string name="layout_element_show_eta">Show ETA</string>
+    <string name="layout_title_when_nav_done">When Navigation Done</string>
+    <string name="layout_element_show_curr_time">Show Current Time</string>
+
+    <string name="layout_title_traffic">Traffic</string>
+    <string name="layout_element_traffic_lane_det">Traffic &amp; Lane Detect (Need Screenshot)</string>
+    <string name="layout_element_alert_anytime">Alert anytime</string>
+    <string name="layout_element_alert_speed_exceeds">Alert when speed exceeds %1$dkph</string>
+    <string name="layout_element_yellow_traffic">Alert Yellow Traffic</string>
+
+    <string name="layout_title_bluetooth">Bluetooth</string>
+    <string name="layout_element_bind_address">Bind Address(Experiment)</string>
+
+    <string name="layout_title_design">Design</string>
+    <string name="layout_element_darkmode_auto">DarkMode by Systemsettings</string>
+    <string name="layout_element_darkmode_man">Enable DarkMode manual</string>
+
+    <string name="layout_title_enable_bmw_hud">BMW HUD</string>
+    <string name="layout_element_bmw_hud_disabled">Disabled</string>
+    <string name="layout_element_bmw_hud_enabled">Enabled</string>
+
+    <string name="layout_title_arrow_type">Arrow Type</string>
+    <string name="layout_element_arrow_type_v1">Arrow V1</string>
+    <string name="layout_element_arrow_type_v2">Arrow V2</string>
+    <string name="layout_element_arrow_debug">Arrow debug</string>
+
+    <string name="layout_tab_debug">Debug</string>
+    <string name="layout_button_list_not">List of Notification</string>
+    <string name="layout_button">Button</string>
+
+    <!-- Messages and variable UI text -->
+    <string name="layout_seekbar_brightness">Brightness %1$d\%%</string>
+    <string name="message_enable_notification_access">Please enable Notification Access for %1$s.
+                        \n\nThis app use Notification to parse Navigation Information.</string>
+    <string name="title_enable_notification_access">Notification Access</string>
+    <string name="layout_element_hud_success_connected">\'%1$s\' connected</string>
+    <string name="layout_element_hud_disconnected">HUD disconnected</string>
+    <string name="layout_element_hud_con_failed">HUD connect failed</string>
+    <string name="message_enable_location_access">For showing/fetching speed to Garmin HUD please enable Location Permission</string>
+    <string name="title_enable_location_access">Location Permission</string>
+    <string name="message_bt_not_available">Bluetooth is not available</string>
+    <string name="message_bt_not_enabled">Bluetooth was not enabled.</string>
+    <string name="message_enable_wlan">Please enable WLAN</string>
+    <string name="message_connect_to_bmw_hud_network">Please connect to Head-Up Display network</string>
+    <string name="layout_title_notify">Notification</string>
+    <string name="layout_element_notify">Show Notification</string>
+    <string name="layout_debug_text_speed">speed %1$d</string>
+    <string name="button_1">BUTTON 1</string>
+    <string name="button_2">BUTTON 2</string>
+    <string name="button_3">BUTTON 3</string>
+
+
+</resources>
